@@ -1,6 +1,58 @@
+# 🔒 ARQUIVOS SENSÍVEIS - NUNCA COMMITAR
+*.txt
+*.key
+*.pem
+secrets/
+.secrets/
+flag_*.txt
+*_flag.txt
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env*.local
+
+# Python
 .venv/
+venv/
+ENV/
+env/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Testing
 .pytest_cache/
+.coverage
+htmlcov/
+test_results/
+
+# Database
 *.db
-.env
+*.sqlite
+*.sqlite3
+
+# IDE e Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
